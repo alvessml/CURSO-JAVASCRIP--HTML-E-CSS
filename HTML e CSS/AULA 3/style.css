@@ -1,0 +1,47 @@
+/* EXISTEM 3 FORMAS DE APLICAR CLASSE NO CSS */
+
+/* 1° - Atribuindo por classe direta */
+
+/* h1{
+    color: rebeccapurple;
+} */
+
+
+
+/* 2° - Atribuindo um classe e um nome no hmtl para depois declarar no css esse .classe */
+/* ***FORMA PRINCIPAL*** */
+/* ex: <h1 class="title">CSS AULA 3</h1> */
+
+/* .title{
+    color: rgb(0, 255, 0);
+} */
+
+
+
+/* 3° Atribuindo por id no html para depois ir para o css #title */
+/* #title{
+    color: purple;
+} */
+
+
+
+/* ------------------------------------------------------------ */
+.title-box-one{
+    color: black;
+}
+
+.box-one{
+    width: 300px;
+    height: 300px;
+    border: 5px solid red;
+}
+
+.box-second{
+    width: 200px;
+    height: 200px;
+    border: 5px solid blue;
+}
+
+.title-box-second{
+    color:  blue;
+}
