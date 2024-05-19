@@ -26,9 +26,6 @@
 
 
 /* ------------------------------------------------------------ */
-.title-box-one{
-    color: black;
-}
 
 .box-one{
     width: 300px;
@@ -42,6 +39,11 @@
     border: 5px solid blue;
 }
 
-.title-box-second{
+.box-one > .title{
+    color: red;
+}
+
+.box-second >.title{
     color:  blue;
 }
+
