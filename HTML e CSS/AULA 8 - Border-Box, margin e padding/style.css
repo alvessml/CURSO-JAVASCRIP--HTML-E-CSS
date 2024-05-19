@@ -1,0 +1,26 @@
+/* .big-box{
+    width: 200px;
+    height: 200px;
+    background-color: azure;
+    display: inline-block;
+} */
+
+/* Comments:
+    display: ; -> serve para declarar a posição do bloco. Por padrão ele é block,
+                mas pode ser alterado para inline-block. 
+    
+    inline-block -> usa-se para criar bloco ao lado do outro.
+
+    box-sizing -> box-sizing é utilizada para alterar a propriedade padrão da box model, 
+                usada para calcular larguras (widths) e alturas (heights) dos elementos.
+    
+    border-box -> Ela altera o comportamento do box-model, fazendo com que o navegador 
+                calcule a largura/altura do elemento contando não apenas o seu conteúdo 
+                (como visto no content-box ), mas também considerando o padding (espaçamento) 
+                e border (borda) do elemento.
+    
+    padding -> propriedade padding define uma a distância entre o conteúdo de um elemento e 
+                suas bordas. É um atalho que evita definir uma distância para cada lado 
+                separadamente ( padding-top , padding-right , padding-bottom , padding-left ).
+
+*/
