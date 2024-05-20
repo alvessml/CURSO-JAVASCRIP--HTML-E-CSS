@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+/* Sem box-sizing: border-box; (padrão content-box): 
+div {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  border: 10px solid black;
+}
+
+Largura total: 200px (conteúdo) + 20px (padding esquerdo) + 20px (padding direito) + 10px (borda esquerda) + 10px (borda direita) = 260px
+Altura total: 200px (conteúdo) + 20px (padding superior) + 20px (padding inferior) + 10px (borda superior) + 10px (borda inferior) = 260px
+
+
+
+Com box-sizing: border-box;:
+div {
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  border: 10px solid black;
+}
+
+Largura total: 200px (incluindo conteúdo, padding e borda)
+Altura total: 200px (incluindo conteúdo, padding e borda)
+*/
+
+.my-button{
+    background-color: red;
+    border: 0px;
+    color: white;
+    padding: 10px;
+}
+
+a{
+    color: black;
+    /* Por padrão o text-decoration é underline, para tirar
+     é só colocar none*/
+    text-decoration: none; 
+}
