@@ -1,0 +1,6 @@
+a{
+    color: black;
+    /* Por padrão o text-decoration é underline, para tirar
+     é só colocar none*/
+    text-decoration: none; 
+}

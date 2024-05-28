@@ -1,0 +1,9 @@
+/* exemplos abaixos. *obs: sempre acompanha-se o !important */
+
+.hidden{
+    display: none !important;
+}
+
+.show{
+    display: block !important;
+}
