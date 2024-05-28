@@ -1,0 +1,5 @@
+.sd-login >.sd-wrapper{
+    /* largura máxima */
+    max-width: var(--sd-main-wrapper);
+    background-color: blue;
+}
