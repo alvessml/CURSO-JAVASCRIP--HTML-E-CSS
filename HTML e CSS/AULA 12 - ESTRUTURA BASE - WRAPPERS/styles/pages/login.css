@@ -1,5 +1,41 @@
 .sd-login >.sd-wrapper{
     /* largura máxima */
     max-width: var(--sd-main-wrapper);
+    margin: 0 auto;
+}
+
+
+
+.sd-login >.sd-wrapper >.sd-header{
+    height: var(--sd-header-size);
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 4px 6px;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.sd-login >.sd-wrapper >.sd-header >.wrapper{
+    max-width: var(--sd-main-wrapper);
+    margin: 0 auto;
+}
+
+
+
+.sd-login >.sd-wrapper >.main-content{
+    display: grid;
+    /* grid-template-columns: 50% 50;  
+    ou*/
+    grid-template-columns: 1fr 1fr; 
+    padding-top: var(--sd-header-size);
+}
+
+.sd-login >.sd-wrapper >.main-content >.left{
     background-color: blue;
+}
+
+.sd-login >.sd-wrapper >.main-content >.right{
+    background-color: red;
 }

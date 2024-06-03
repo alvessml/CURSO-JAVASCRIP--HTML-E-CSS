@@ -1,0 +1,13 @@
+:root{
+    /* PRIMARY */
+    --sd-color-primary: #0041be;
+
+    /* DANGER */
+    --sd-color-danger: #FF2222;
+
+    /* GRAY */
+    --sd-color-gray-lighter: #f9fbfd;
+    --sd-color-gray-ligiht: #b9b7b7;
+    --sd-color-gray: #767684;
+    --sd-color-gray: #09090a;
+}
